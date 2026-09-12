@@ -1,0 +1,36 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "start-react-dev-server",
+            "type": "shell",
+            "command": "npm.cmd",
+            "args": [
+                "start"
+            ],
+            "isBackground": true,
+            "problemMatcher": {
+                "owner": "custom",
+                "pattern": {
+                    "regexp": "."
+                },
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": "Starting the development server",
+                    "endsPattern": "Compiled successfully"
+                }
+            },
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "BROWSER": "none",
+                    "PORT": "3005"
+                }
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated"
+            }
+        }
+    ]
+}
