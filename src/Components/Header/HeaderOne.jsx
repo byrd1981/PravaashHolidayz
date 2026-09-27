@@ -97,7 +97,7 @@ function HeaderOne() {
                                     <nav className="main-menu d-none d-xl-inline-block">
                                         <ul>
                                             <li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li>
-                                            <li><a href="/" data-discover="true">Home</a></li>
+                                            <li><Link to="/">Home</Link></li>
                                             <li>
                                                 <Link to="/about">About Us</Link>
                                             </li>
