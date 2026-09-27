@@ -10,7 +10,7 @@ function Tour() {
         <>
             <HeaderOne />
             <Breadcrumb
-                title="Popular Tours"
+                title="Popular Packages"
             />
             <TourInner />
             <FooterFour />

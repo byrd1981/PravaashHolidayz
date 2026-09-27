@@ -1,0 +1,195 @@
+const packages = {
+    gujarat: {
+        label: "Gujarat Tour Packages",
+        items: [
+            {
+                id: "GUJ0001",
+                tourCode: "GUJ0001",
+                title: "Gujarat : 3N/4D",
+                duration: "3N / 4D",
+                itinerary: "Dwarka (2N) – Somnath (1N)",
+                price: "Call for the Cost",
+                image: "tour_4_1.jpg"
+            },
+            {
+                id: "GUJ0002",
+                tourCode: "GUJ0002",
+                title: "Gujarat : 4N/5D",
+                duration: "4N / 5D",
+                itinerary: "Dwarka (2N) – Somnath (1N) – Diu (1N)",
+                price: "Call for the Cost",
+                image: "tour_4_1.jpg"
+            },
+            {
+                id: "GUJ0003",
+                tourCode: "GUJ0003",
+                title: "Gujarat : 5N/6D",
+                duration: "5N / 6D",
+                itinerary: "Dwarka (2N) – Somnath (1N) – Sasangir (1N) – Diu (1N)",
+                price: "Call for the Cost",
+                image: "tour_4_1.jpg"
+            },
+            {
+                id: "GUJ0004",
+                tourCode: "GUJ0004",
+                title: "Gujarat : 6N/7D",
+                duration: "6N / 7D",
+                itinerary: "SOU (2N) – Dwarka (2N) – Somnath (1N) – Diu (1N)",
+                price: "Call for the Cost",
+                image: "tour_4_1.jpg"
+            }
+        ]
+    },
+    rajasthan: {
+        label: "Rajasthan Tour Packages",
+        items: [
+            {
+                id: "RAJ0001",
+                tourCode: "RAJ0001",
+                title: "Rajasthan : 2N/3D",
+                duration: "2N / 3D",
+                itinerary: "Udaipur (2N)",
+                price: "Call for the Cost",
+                image: "tour_4_2.jpg"
+            },
+            {
+                id: "RAJ0002",
+                tourCode: "RAJ0002",
+                title: "Rajasthan : 3N/4D",
+                duration: "3N / 4D",
+                itinerary: "Udaipur (2N) – Kumbhalgarh (1N)",
+                price: "Call for the Cost",
+                image: "tour_4_2.jpg"
+            }
+        ]
+    },
+    karnataka: {
+        label: "Karnataka Tour Packages",
+        items: [
+            {
+                id: "KAR0001",
+                tourCode: "KAR0001",
+                title: "Karnataka : 4N/5D",
+                duration: "4N / 5D",
+                itinerary: "Mysore (1N) – Coorg (2N) – Bangalore (1N)",
+                price: "Call for the Cost",
+                image: "tour_4_3.jpg"
+            },
+            {
+                id: "KAR0002",
+                tourCode: "KAR0002",
+                title: "Karnataka : 4N/5D",
+                duration: "4N / 5D",
+                itinerary: "Mysore (1N) – Ooty (2N) – Bangalore (1N)",
+                price: "Call for the Cost",
+                image: "tour_4_3.jpg"
+            },
+            {
+                id: "KAR0003",
+                tourCode: "KAR0003",
+                title: "Karnataka : 5N/6D",
+                duration: "5N / 6D",
+                itinerary: "Madurai (1N) – Kodaikanal (2N) – Ooty (2N)",
+                price: "Call for the Cost",
+                image: "tour_4_3.jpg"
+            },
+            {
+                id: "KAR0004",
+                tourCode: "KAR0004",
+                title: "Karnataka : 5N/6D",
+                duration: "5N / 6D",
+                itinerary: "Madurai (1N) – Rameshwaram (1N) – Kanyakumari (1N) – Kovalam (2N)",
+                price: "Call for the Cost",
+                image: "tour_4_3.jpg"
+            },
+            {
+                id: "KAR0005",
+                tourCode: "KAR0005",
+                title: "Karnataka : 6N/7D",
+                duration: "6N / 7D",
+                itinerary: "Mysore (1N) – Coorg (2N) – Ooty (2N) – Bangalore (1N)",
+                price: "Call for the Cost",
+                image: "tour_4_3.jpg"
+            },
+            {
+                id: "KAR0006",
+                tourCode: "KAR0006",
+                title: "Karnataka : 6N/7D",
+                duration: "6N / 7D",
+                itinerary: "Mysore (1N) – Wayanad (2N) – Ooty (2N) – Bangalore (1N)",
+                price: "Call for the Cost",
+                image: "tour_4_3.jpg"
+            },
+            {
+                id: "KAR0007",
+                tourCode: "KAR0007",
+                title: "Karnataka : 6N/7D",
+                duration: "6N / 7D",
+                itinerary: "Mysore (1N) – Coorg (2N) – Wayanad (2N) – Bangalore (1N)",
+                price: "Call for the Cost",
+                image: "tour_4_3.jpg"
+            },
+            {
+                id: "KAR0008",
+                tourCode: "KAR0008",
+                title: "Karnataka : 6N/7D",
+                duration: "6N / 7D",
+                itinerary: "Mysore (1N) – Kodaikanal (2N) – Ooty (2N) – Bangalore (1N)",
+                price: "Call for the Cost",
+                image: "tour_4_3.jpg"
+            },
+            {
+                id: "KAR0009",
+                tourCode: "KAR0009",
+                title: "Karnataka : 10N/11D",
+                duration: "10N / 11D",
+                itinerary: "Mysore (1N) – Coorg (2N) – Ooty (2N) – Bangalore (1N) – Wayanad (2N) – Kodaikanal (2N)",
+                price: "Call for the Cost",
+                image: "tour_4_3.jpg"
+            }
+        ]
+    },
+    kerala: {
+        label: "Kerala Tour Packages",
+        items: [
+            {
+                id: "KE0001",
+                tourCode: "KE0001",
+                title: "Kerala : 4N/5D",
+                duration: "4N / 5D",
+                itinerary: "Munnar (2N) – Thekkady (1N) – Alleppey (1N)",
+                price: "Call for the Cost",
+                image: "tour_4_4.jpg"
+            },
+            {
+                id: "KE0002",
+                tourCode: "KE0002",
+                title: "Kerala : 5N/6D",
+                duration: "5N / 6D",
+                itinerary: "Cochin (1N) – Munnar (2N) – Thekkady (1N) – Alleppey (1N)",
+                price: "Call for the Cost",
+                image: "tour_4_4.jpg"
+            },
+            {
+                id: "KE0003",
+                tourCode: "KE0003",
+                title: "Kerala : 6N/7D",
+                duration: "6N / 7D",
+                itinerary: "Munnar (2N) – Thekkady (1N) – Alleppey (1N) – Kovalam (2N)",
+                price: "Call for the Cost",
+                image: "tour_4_4.jpg"
+            },
+            {
+                id: "KE0004",
+                tourCode: "KE0004",
+                title: "Kerala : 7N/8D",
+                duration: "7N / 8D",
+                itinerary: "Cochin (1N) – Munnar (2N) – Thekkady (1N) – Alleppey (1N) – Kovalam (2N)",
+                price: "Call for the Cost",
+                image: "tour_4_4.jpg"
+            }
+        ]
+    }
+};
+
+export default packages;

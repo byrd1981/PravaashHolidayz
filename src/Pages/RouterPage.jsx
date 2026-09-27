@@ -7,7 +7,7 @@ import HomeFour from './HomeFour'
 import About from './About'
 import LoadTop from '../Components/LoadTop'
 import Destination from './Destination'
-import DestinationDetails from './DestinationDetails'
+import DestinationPackagesPage from './DestinationPackages'
 import Service from './Service'
 import ServiceDetails from './ServiceDetails';
 import Activities from './Activities'
@@ -42,7 +42,7 @@ function RouterPage() {
           <Route path="/home-yacht" element={<HomeFour />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/destination" element={<Destination />}></Route>
-          <Route path="/destination/:id" element={<DestinationDetails />} />
+          <Route path="/destination/:category" element={<DestinationPackagesPage />} />
           <Route path="/service" element={<Service />}></Route>
           <Route path="/service/:id" element={<ServiceDetails />} />
           <Route path="/activities" element={<Activities />}></Route>

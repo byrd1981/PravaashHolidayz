@@ -101,18 +101,8 @@ function HeaderOne() {
                                             <li>
                                                 <Link to="/about">About Us</Link>
                                             </li>
-                                            <li className="menu-item-has-children">
-                                                <Link to="#">Packages</Link>
-                                                <ul className="sub-menu">
-                                                    <li>
-                                                        <Link to="/destination">Destination</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/destination/1">
-                                                            Destination Details
-                                                        </Link>
-                                                    </li>
-                                                </ul>
+                                            <li>
+                                                <Link to="/tour">Packages</Link>
                                             </li>
                                             <li className="menu-item-has-children">
                                                 <Link to="#">Gallery</Link>
@@ -136,6 +126,7 @@ function HeaderOne() {
                                                     </li>
                                                 </ul>
                                             </li> */}
+                                            {/* PAGES MENU — commented out, keep for future use
                                             <li className="menu-item-has-children">
                                                 <Link to="#">Pages</Link>
                                                 <ul className="sub-menu">
@@ -196,6 +187,7 @@ function HeaderOne() {
                                                     </li>
                                                 </ul>
                                             </li>
+                                            END PAGES MENU */}
                                             {/* <li className="menu-item-has-children">
                                                 <Link to="#">Blog</Link>
                                                 <ul className="sub-menu">

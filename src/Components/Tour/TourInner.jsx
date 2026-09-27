@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import TourCard from './TourCard';
-import posts from '../data/data-tour.json';
+import posts from '../data/packages-master.json';
 import TourCardTwo from './TourCardTwo';
 
 function TourInner() {
@@ -97,6 +97,8 @@ function TourInner() {
                                                 tourImage={`${data.image}`}
                                                 tourTitle={data.title}
                                                 tourPrice={data.price}
+                                                tourDuration={data.duration}
+                                                tourSlug={data.slug}
                                             />
                                         </div>
                                     ))}
@@ -113,6 +115,8 @@ function TourInner() {
                                                 tourImage={`${data.image}`}
                                                 tourTitle={data.title}
                                                 tourPrice={data.price}
+                                                tourDuration={data.duration}
+                                                tourSlug={data.slug}
                                             />
                                         </div>
                                     ))}
@@ -265,6 +269,7 @@ function TourInner() {
                                     </div>
                                 </div>
                             </div>
+                            {/* Popular Tags — commented out, keep for future use
                             <div className="widget widget_tag_cloud  ">
                                 <h3 className="widget_title">Popular Tags</h3>
                                 <div className="tagcloud">
@@ -278,6 +283,8 @@ function TourInner() {
                                     <Link to="/blog">Travel</Link>
                                 </div>
                             </div>
+                            END Popular Tags */}
+                            {/* Need Help widget — commented out, keep for future use
                             <div
                                 className="widget widget_offer"
                                 style={{background: "url(/assets/img/bg/widget_bg_1.jpg)"}}
@@ -302,6 +309,7 @@ function TourInner() {
                                     </div>
                                 </div>
                             </div>
+                            END Need Help widget */}
                         </aside>
                     </div>
                 </div>
