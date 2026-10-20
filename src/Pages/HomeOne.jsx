@@ -8,7 +8,7 @@ import AboutOne from '../Components/About/AboutOne'
 import TourOne from '../Components/Tour/TourOne'
 import GalleryOne from '../Components/Gallery/GalleryOne'
 import CounterOne from '../Components/Counter/CounterOne'
-import TourGuide from '../Components/Guide/TourGuide'
+
 import HighlightsOne from '../Components/Highlights/HighlightsHome'
 import BrandOne from '../Components/Brand/BrandOne'
 import BlogOne from '../Components/Blog/BlogOne'
@@ -27,7 +27,6 @@ function HomeOne() {
             <TourOne />
             <GalleryOne />
             <CounterOne />
-            <TourGuide />
             <HighlightsOne />
             <BrandOne className="space-bottom"/>
             <BlogOne />

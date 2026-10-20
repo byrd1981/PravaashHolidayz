@@ -113,22 +113,7 @@ function TourOne() {
                 </div>
               </div>
             </SwiperSlide>  
-            <SwiperSlide key="tour6">
-              <div className="tour-box th-ani gsap-cursor">
-                <div className="tour-box_img global-img">
-                  <img src="/assets/img/tour/tour_box_6.jpg" alt="Greece Tour Package" />
-                </div>
-                <div className="tour-content">
-                  <h3 className="box-title">
-                    <Link to="/tour-details">Visa Assistance in Ahmedabad</Link>
-                  </h3>
-                  <p class="sec-text">
-                    Complete visa guidance and documentation support for international travel
-                  </p>
-                </div>
-              </div>
-            </SwiperSlide>            
-          </Swiper>
+            </Swiper>
         </div>
       </div>
     </section>

@@ -22,7 +22,6 @@ function OfferTwo() {
                                 <h3 className="box-title">
                                     <Link to="/service/1">Domestic & International Tour Packages</Link>
                                 </h3>
-                                <p className="destination-text">20 Listing</p>
                                 <Link to="/contact" className="th-btn style4 th-icon">
                                     Book Now
                                 </Link>
@@ -38,7 +37,6 @@ function OfferTwo() {
                                 <h3 className="box-title">
                                     <Link to="/service/1">Customized Holiday Planning</Link>
                                 </h3>
-                                <p className="destination-text">22 Listing</p>
                                 <Link to="/contact" className="th-btn style4 th-icon">
                                     Book Now
                                 </Link>
@@ -54,7 +52,6 @@ function OfferTwo() {
                                 <h3 className="box-title">
                                     <Link to="/service/1">Flight Bookings</Link>
                                 </h3>
-                                <p className="destination-text">23 Listing</p>
                                 <Link to="/contact" className="th-btn style4 th-icon">
                                     Book Now
                                 </Link>
@@ -70,23 +67,6 @@ function OfferTwo() {
                                 <h3 className="box-title">
                                     <Link to="/service/1">Hotel Reservations</Link>
                                 </h3>
-                                <p className="destination-text">24 Listing</p>
-                                <Link to="/contact" className="th-btn style4 th-icon">
-                                    Book Now
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-xl-3 col-lg-4 col-md-6">
-                        <div className="destination-item th-ani">
-                            <div className="destination-item_img global-img">
-                                <img src="/assets/img/destination/destination_4_5.jpg" alt="" />
-                            </div>
-                            <div className="destination-content">
-                                <h3 className="box-title">
-                                    <Link to="/service/1">Visa Assistance</Link>
-                                </h3>
-                                <p className="destination-text">25 Listing</p>
                                 <Link to="/contact" className="th-btn style4 th-icon">
                                     Book Now
                                 </Link>
@@ -102,7 +82,6 @@ function OfferTwo() {
                                 <h3 className="box-title">
                                     <Link to="/service/1">Group Tours & Corporate Travel</Link>
                                 </h3>
-                                <p className="destination-text">26 Listing</p>
                                 <Link to="/contact" className="th-btn style4 th-icon">
                                     Book Now
                                 </Link>
@@ -118,7 +97,6 @@ function OfferTwo() {
                                 <h3 className="box-title">
                                     <Link to="/service/1">Honeymoon & Luxury Packages</Link>
                                 </h3>
-                                <p className="destination-text">27 Listing</p>
                                 <Link to="/contact" className="th-btn style4 th-icon">
                                     Book Now
                                 </Link>

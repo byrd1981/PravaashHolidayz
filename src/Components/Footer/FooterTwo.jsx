@@ -88,7 +88,7 @@ function FooterTwo() {
                             </div>
                         </div>
                         <div className="col-md-6 col-xl-auto">
-                            <div className="widget footer-widget">
+                            <div className="widget footer-widget" style={{ backgroundColor: '#f5f5f5', padding: '20px', borderRadius: '5px' }}>
                                 <h3 className="widget_title">Get In Touch</h3>
                                 <div className="th-widget-contact">
                                     <div className="info-box_text">
@@ -115,28 +115,12 @@ function FooterTwo() {
                                         <div className="details">
                                             <p>
                                                 <Link
-                                                    to="/mailto:mailinfo00@pravaash.com"
+                                                    to="mailto:pravaashholidayz@gmail.com"
                                                     className="info-box_link"
                                                 >
-                                                    mailinfo00@pravaash.com
+                                                    pravaashholidayz@gmail.com
                                                 </Link>
                                             </p>
-                                            <p>
-                                                <Link
-                                                    to="/mailto:support24@pravaash.com"
-                                                    className="info-box_link"
-                                                >
-                                                    support24@pravaash.com
-                                                </Link>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div className="info-box_text">
-                                        <div className="icon">
-                                            <img src="/assets/img/icon/location-dot.svg" alt="img" />
-                                        </div>
-                                        <div className="details">
-                                            <p>789 Inner Lane, Holy park, California, USA</p>
                                         </div>
                                     </div>
                                 </div>
