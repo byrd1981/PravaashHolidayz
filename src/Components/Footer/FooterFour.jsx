@@ -103,7 +103,7 @@ function FooterFour() {
                             </div>
                         </div>
                         <div className="col-md-6 col-xl-auto">
-                            <div className="widget footer-widget" style={{ backgroundColor: '#f5f5f5', padding: '20px', borderRadius: '5px' }}>
+                            <div className="widget footer-widget" style={{ backgroundColor: 'transparent', padding: '20px', borderRadius: '5px' }}>
                                 <h3 className="widget_title">Get In Touch</h3>
                                 <div className="th-widget-contact">
                                     <div className="info-box_text">

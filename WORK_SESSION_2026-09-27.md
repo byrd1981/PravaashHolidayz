@@ -25,6 +25,7 @@ Created a **single JSON source** containing all 19 tour sub-packages organized b
 
 - **Karnataka** (9 packages)
   - KAR0001-KAR0009: Range from 4N/5D to 10N/11D
+  
   - Destinations: Mysore, Coorg, Ooty, Bangalore, Wayanad, Kodaikanal, Madurai, Rameshwaram, Kanyakumari, Kovalam
 
 - **Kerala** (4 packages)

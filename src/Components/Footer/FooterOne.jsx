@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function FooterOne() {
     return (
-        <footer className="footer-wrapper bg-title footer-layout1">
+        <footer className="footer-wrapper bg-title footer-layout2 shape-mockup-wrap">
             <div className="widget-area">
                 <div className="container">
                     {/* <div className="newsletter-area">
@@ -88,7 +88,7 @@ function FooterOne() {
                             </div>
                         </div>
                         <div className="col-md-6 col-xl-auto">
-                            <div className="widget footer-widget" style={{ backgroundColor: '#f5f5f5', padding: '20px', borderRadius: '5px' }}>
+                            <div className="widget footer-widget" style={{ backgroundColor: 'transparent', padding: '20px', borderRadius: '5px' }}>
                                 <h3 className="widget_title">Address</h3>
                                 <div className="th-widget-contact">
                                     <div className="info-box_text">
