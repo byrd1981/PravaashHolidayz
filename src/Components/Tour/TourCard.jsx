@@ -5,8 +5,8 @@ function TourCard(props) {
     const { tourImage, tourTitle, tourPrice, tourDuration, tourSlug } = props;
     return (
         <div className="tour-box th-ani">
-            <div className="tour-box_img global-img">
-                <img src={`/assets/img/tour/${tourImage}`} alt="" />
+            <div className="tour-box_img global-img" style={{ height: '250px', overflow: 'hidden' }}>
+                <img src={`/assets/img/tour/${tourImage}`} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             </div>
             <div className="tour-content">
                 <h3 className="box-title">

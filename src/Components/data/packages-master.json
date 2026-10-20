@@ -43,6 +43,24 @@
                 "itinerary": "SOU (2N) – Dwarka (2N) – Somnath (1N) – Diu (1N)",
                 "price": "Call for the Cost",
                 "image": "tour_4_1.jpg"
+            },
+            {
+                "id": "GUJ0005",
+                "tourCode": "GUJ0005",
+                "title": "Gujarat : 4N/5D",
+                "duration": "4N / 5D",
+                "itinerary": "Bhuj(2N) – Dhordo Tent City(2N) – Mandvi(1N)",
+                "price": "Call for the Cost",
+                "image": "tour_4_1.jpg"
+            },
+            {
+                "id": "GUJ0006",
+                "tourCode": "GUJ0006",
+                "title": "Gujarat : 5N/6D",
+                "duration": "5N / 6D",
+                "itinerary": "Ahmedabad(1N) – SOU(1N) – Bhavnagar(1N) – Somnath(1N) – Dwarka(1N)",
+                "price": "Call for the Cost",
+                "image": "tour_4_1.jpg"
             }
         ]
     },
@@ -70,6 +88,51 @@
                 "title": "Rajasthan : 3N/4D",
                 "duration": "3N / 4D",
                 "itinerary": "Udaipur (2N) – Kumbhalgarh (1N)",
+                "price": "Call for the Cost",
+                "image": "tour_4_2.jpg"
+            },
+            {
+                "id": "RAJ0003",
+                "tourCode": "RAJ0003",
+                "title": "Rajasthan : 5N/6D",
+                "duration": "5N / 6D",
+                "itinerary": "Udaipur (2N) – Nathdwara (1N) – Jodhpur (2N)",
+                "price": "Call for the Cost",
+                "image": "tour_4_2.jpg"
+            },
+            {
+                "id": "RAJ0004",
+                "tourCode": "RAJ0004",
+                "title": "Rajasthan : 6N/7D",
+                "duration": "6N / 7D",
+                "itinerary": "Jaipur (2N) – Jodhpur (2N) – Udaipur (2N)",
+                "price": "Call for the Cost",
+                "image": "tour_4_2.jpg"
+            },
+            {
+                "id": "RAJ0005",
+                "tourCode": "RAJ0005",
+                "title": "Rajasthan : 6N/7D",
+                "duration": "6N / 7D",
+                "itinerary": "Mount Abu (2N) – Jodhpur (2N) – Udaipur (2N)",
+                "price": "Call for the Cost",
+                "image": "tour_4_2.jpg"
+            },
+            {
+                "id": "RAJ0006",
+                "tourCode": "RAJ0006",
+                "title": "Rajasthan : 6N/7D",
+                "duration": "6N / 7D",
+                "itinerary": "Jaipur (2N) – Jodhpur (2N) – Jaisalmer Camp (1N) – Jaisalmer City (1N)",
+                "price": "Call for the Cost",
+                "image": "tour_4_2.jpg"
+            },
+            {
+                "id": "RAJ0007",
+                "tourCode": "RAJ0007",
+                "title": "Rajasthan : 7N/8D",
+                "duration": "7N / 8D",
+                "itinerary": "Jaipur (2N) – Jodhpur (2N) – Jaisalmer Camp (1N) – Jaisalmer City (1N) – Bikaner (1N)",
                 "price": "Call for the Cost",
                 "image": "tour_4_2.jpg"
             }
@@ -209,6 +272,147 @@
                 "title": "Kerala : 7N/8D",
                 "duration": "7N / 8D",
                 "itinerary": "Cochin (1N) – Munnar (2N) – Thekkady (1N) – Alleppey (1N) – Kovalam (2N)",
+                "price": "Call for the Cost",
+                "image": "tour_4_4.jpg"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "slug": "andaman",
+        "title": "Andaman Nicobar Tour Packages",
+        "image": "tour_5_1.jpg",
+        "price": "Call for the Cost",
+        "duration": "4 - 7 Days",
+        "label": "Andaman Nicobar Tour Packages",
+        "subPackages": [
+            {
+                "id": "AN0001",
+                "tourCode": "AN0001",
+                "title": "Andaman : 6N/7D",
+                "duration": "6N / 7D",
+                "itinerary": "Portblair(3N) – Neil Island(1N) – Havelock(2N)",
+                "price": "Call for the Cost",
+                "image": "tour_4_4.jpg"
+            },
+            {
+                "id": "AN0002",
+                "tourCode": "AN0002",
+                "title": "Andaman : 5N/6D",
+                "duration": "5N / 6D",
+                "itinerary": "Portblair(2N) – Neil Island(1N) – Havelock(2N)",
+                "price": "Call for the Cost",
+                "image": "tour_4_4.jpg"
+            },
+            {
+                "id": "AN0003",
+                "tourCode": "AN0003",
+                "title": "Andaman : 4N/5D",
+                "duration": "4N / 5D",
+                "itinerary": "Portblair(2N) – Havelock(2N)",
+                "price": "Call for the Cost",
+                "image": "tour_4_4.jpg"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "slug": "vietnam",
+        "title": "Vietnam Tour Packages",
+        "image": "tour_6_1.jpg",
+        "price": "Call for the Cost",
+        "duration": "4 - 10 Days",
+        "label": "Vietnam Tour Packages",
+        "subPackages": [
+            {
+                "id": "VIE0001",
+                "tourCode": "VIE0001",
+                "title": "Vietnam : 4N/5D",
+                "duration": "4N / 5D",
+                "itinerary": "Hanoi(3N) – Ha Long(1N)",
+                "price": "Call for the Cost",
+                "image": "tour_4_4.jpg"
+            },
+            {
+                "id": "VIE0002",
+                "tourCode": "VIE0002",
+                "title": "Vietnam : 4N/5D",
+                "duration": "4N / 5D",
+                "itinerary": "Phu Quoc(4N)",
+                "price": "Call for the Cost",
+                "image": "tour_4_4.jpg"
+            },
+            {
+                "id": "VIE0003",
+                "tourCode": "VIE0003",
+                "title": "Vietnam : 4N/5D",
+                "duration": "4N / 5D",
+                "itinerary": "Hanoi(1N) – Ha Long(1N) – Danang(2N)",
+                "price": "Call for the Cost",
+                "image": "tour_4_4.jpg"
+            },
+            {
+                "id": "VIE0004",
+                "tourCode": "VIE0004",
+                "title": "Vietnam : 5N/6D",
+                "duration": "5N / 6D",
+                "itinerary": "Hanoi(3N) - Ha Long(2N)",
+                "price": "Call for the Cost",
+                "image": "tour_4_4.jpg"
+            },
+            {
+                "id": "VIE0005",
+                "tourCode": "VIE0005",
+                "title": "Vietnam : 6N/7D",
+                "duration": "6N / 7D",
+                "itinerary": "Hanoi(2N) - Danang(1N) - Hoi An(1N) - Hoi Chi Minh(2N)",
+                "price": "Call for the Cost",
+                "image": "tour_4_4.jpg"
+            },
+            {
+                "id": "VIE0006",
+                "tourCode": "VIE0006",
+                "title": "Vietnam : 8N/9D",
+                "duration": "8N / 9D",
+                "itinerary": "Hanoi(3N) - Danang(1N) - Hoi An(2N) - Hoi Chi Minh(2N)",
+                "price": "Call for the Cost",
+                "image": "tour_4_4.jpg"
+            },
+            {
+                "id": "VIE0007",
+                "tourCode": "VIE0007",
+                "title": "Vietnam : 9N/10D",
+                "duration": "9N / 10D",
+                "itinerary": "Hanoi(2N) - Ha Long(1N) - Danang(1N) - Hoi An(2N) - Hoi Chi Minh(3N)",
+                "price": "Call for the Cost",
+                "image": "tour_4_4.jpg"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "slug": "kashmir",
+        "title": "Kashmir Tour Packages",
+        "image": "tour_7_1.jpg",
+        "price": "Call for the Cost",
+        "duration": "5 - 6 Days",
+        "label": "Vietnam Tour Packages",
+        "subPackages": [
+            {
+                "id": "KAS0001",
+                "tourCode": "KAS0001",
+                "title": "Kashmir : 5N/6D",
+                "duration": "5N / 6D",
+                "itinerary": "Srinagar(3N) - Pahalgam(1N) - SrinagarHouseboat(1N)",
+                "price": "Call for the Cost",
+                "image": "tour_4_4.jpg"
+            },
+            {
+                "id": "KAS0002",
+                "tourCode": "KAS0002",
+                "title": "Kashmir : 5N/6D",
+                "duration": "5N / 6D",
+                "itinerary": "Srinagar(3N) - Pahalgam(2N)",
                 "price": "Call for the Cost",
                 "image": "tour_4_4.jpg"
             }
