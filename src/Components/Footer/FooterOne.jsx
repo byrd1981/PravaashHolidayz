@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function FooterOne() {
     return (
-        <footer className="footer-wrapper footer-layout1">
+        <footer className="footer-wrapper bg-title footer-layout1">
             <div className="widget-area">
                 <div className="container">
                     {/* <div className="newsletter-area">
