@@ -62,7 +62,7 @@ function LoginForm({ isOpen, onClose }) {
                                         </div>
                                     </div>
                                     <div id="forgot_url">
-                                        <a href="#">Forgot password?</a>
+                                        <button type="button" className="forgot-password-link" onClick={(e) => e.preventDefault()}>Forgot password?</button>
                                     </div>
                                 </form>
                             </div>
