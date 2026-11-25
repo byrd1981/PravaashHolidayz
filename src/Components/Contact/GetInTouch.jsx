@@ -18,11 +18,9 @@ function GetInTouch() {
                             <div className="about-contact-details">
                                 <h6 className="box-title">Our Address</h6>
                                 <p className="about-contact-details-text">
-                                    F/410, SOBO Centre, Nr. Safal Parisar, Gala Gymkhana Road,
+                                    F/410, SOBO Centre, Nr. Safal Parisar, Gala Gymkhana Road, South Bopal, Bopal
                                 </p>
-                                <p className="about-contact-details-text">South Bopal, Bopal</p>
                                 <p className="about-contact-details-text">Ahmedabad – 380 058, Gujarat, India</p>
-                                <br/>
                             </div>
                         </div>
                     </div>
@@ -34,13 +32,12 @@ function GetInTouch() {
                             <div className="about-contact-details">
                                 <h6 className="box-title">Phone Number</h6>
                                 <p className="about-contact-details-text">
-                                    <Link to="tel:01234567890">+91 99090 25094</Link>
+                                    <Link to="tel:+919909025094">+91 99090 25094</Link>
                                 </p>
                                 <h6 className="box-title">GST No</h6>
                                 <p className="about-contact-details-text">
                                     24ABKFP4933E1Z9
                                 </p>
-                                <p><br/></p><br/>
                             </div>
                         </div>
                     </div>
@@ -55,9 +52,8 @@ function GetInTouch() {
                                     <Link to="mailto:info@pravaashholidayz.com">info@pravaashholidayz.com</Link>
                                 </p>
                                 <p className="about-contact-details-text">
-                                    <Link to="www.pravaashholidayz.com">www.pravaashholidayz.com</Link>
+                                    <Link to="https://www.pravaashholidayz.com">www.pravaashholidayz.com</Link>
                                 </p>
-                                <p><br/></p><p><br/></p><br/>
                             </div>
                         </div>
                     </div>
