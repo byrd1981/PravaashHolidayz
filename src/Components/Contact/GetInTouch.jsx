@@ -33,7 +33,7 @@ function GetInTouch() {
                                 <h6 className="box-title">Phone Number</h6>
                                 <p className="about-contact-details-text">
                                     <Link to="tel:+919909025094">+91 99090 25094</Link>
-                                </p>
+                                </p><br></br><br></br><br></br>
                                 <h6 className="box-title">GST No</h6>
                                 <p className="about-contact-details-text">
                                     24ABKFP4933E1Z9
