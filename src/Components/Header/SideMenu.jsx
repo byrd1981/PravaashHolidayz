@@ -1,8 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 
 function SideMenu({ isOpen, onClose }) {
-    const [activeMenu, setActiveMenu] = useState(null);
     return (
         <>
             <div className={`sidemenu-wrapper sidemenu-info ${isOpen ? "show" : ""}`} style={{ visibility: isOpen ? "visible" : "hidden" }} onClick={onClose} aria-label="Close">
