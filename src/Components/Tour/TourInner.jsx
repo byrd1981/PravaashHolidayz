@@ -99,6 +99,7 @@ function TourInner() {
                                                 tourPrice={data.price}
                                                 tourDuration={data.duration}
                                                 tourSlug={data.slug}
+                                                tourRating={data.rating}
                                             />
                                         </div>
                                     ))}
@@ -117,6 +118,7 @@ function TourInner() {
                                                 tourPrice={data.price}
                                                 tourDuration={data.duration}
                                                 tourSlug={data.slug}
+                                                tourRating={data.rating}
                                             />
                                         </div>
                                     ))}

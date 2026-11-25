@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 function TourCard(props) {
-    const { tourImage, tourTitle, tourPrice, tourDuration, tourSlug } = props;
+    const { tourImage, tourTitle, tourPrice, tourDuration, tourSlug, tourRating } = props;
     return (
         <div className="tour-box th-ani">
             <div className="tour-box_img global-img" style={{ height: '250px', overflow: 'hidden' }}>
@@ -16,12 +16,12 @@ function TourCard(props) {
                     <div
                         className="star-rating"
                         role="img"
-                        aria-label="Rated 5.00 out of 5"
+                        aria-label={`Rated ${tourRating || 4.8} out of 5`}
                     >
-                        <span style={{ width: "100%" }}>
+                        <span style={{ width: `${(tourRating || 4.8) * 20}%` }}>
                             Rated
-                            <strong className="rating">5.00</strong> out of 5
-                            based on <span className="rating">4.8</span>(4.8
+                            <strong className="rating">{tourRating || 4.8}</strong> out of 5
+                            based on <span className="rating">{tourRating || 4.8}</span>({tourRating || 4.8}
                             Rating)
                         </span>
                     </div>
@@ -29,7 +29,7 @@ function TourCard(props) {
                         to="/tour-details"
                         className="woocommerce-review-link"
                     >
-                        (<span className="count">4.8</span>
+                        (<span className="count">{tourRating || 4.8}</span>
                         Rating)
                     </Link>
                 </div>

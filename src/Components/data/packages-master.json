@@ -7,6 +7,7 @@
         "price": "Call for the Cost",
         "duration": "4 - 7 Days",
         "label": "Gujarat Tour Packages",
+        "rating": 4.8,
         "subPackages": [
             {
                 "id": "GUJ0001",
@@ -72,6 +73,7 @@
         "price": "Call for the Cost",
         "duration": "3 - 4 Days",
         "label": "Rajasthan Tour Packages",
+        "rating": 4.0,
         "subPackages": [
             {
                 "id": "RAJ0001",
@@ -146,6 +148,7 @@
         "price": "Call for the Cost",
         "duration": "5 - 11 Days",
         "label": "Karnataka Tour Packages",
+        "rating": 4.7,
         "subPackages": [
             {
                 "id": "KAR0001",
@@ -238,6 +241,7 @@
         "price": "Call for the Cost",
         "duration": "5 - 8 Days",
         "label": "Kerala Tour Packages",
+        "rating": 4.5,
         "subPackages": [
             {
                 "id": "KE0001",
@@ -285,6 +289,7 @@
         "price": "Call for the Cost",
         "duration": "4 - 7 Days",
         "label": "Andaman Nicobar Tour Packages",
+        "rating": 4.2,
         "subPackages": [
             {
                 "id": "AN0001",
@@ -323,6 +328,7 @@
         "price": "Call for the Cost",
         "duration": "4 - 10 Days",
         "label": "Vietnam Tour Packages",
+        "rating": 4.5,
         "subPackages": [
             {
                 "id": "VIE0001",
@@ -397,6 +403,7 @@
         "price": "Call for the Cost",
         "duration": "5 - 6 Days",
         "label": "Vietnam Tour Packages",
+        "rating": 4.1,
         "subPackages": [
             {
                 "id": "KAS0001",
