@@ -36,8 +36,9 @@ function GetInTouch() {
                                 <p className="about-contact-details-text">
                                     <Link to="tel:01234567890">+91 99090 25094</Link>
                                 </p>
+                                <h6 className="box-title">GST No</h6>
                                 <p className="about-contact-details-text">
-                                    <strong>GST No :</strong> 24ABKFP4933E1Z9
+                                    24ABKFP4933E1Z9
                                 </p>
                                 <p><br/></p><br/>
                             </div>
