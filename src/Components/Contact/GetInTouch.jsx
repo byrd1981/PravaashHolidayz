@@ -36,7 +36,10 @@ function GetInTouch() {
                                 <p className="about-contact-details-text">
                                     <Link to="tel:01234567890">+91 99090 25094</Link>
                                 </p>
-                                <p><br/></p><p><br/></p><br/>
+                                <p className="about-contact-details-text">
+                                    <strong>GST No :</strong> 24ABKFP4933E1Z9
+                                </p>
+                                <p><br/></p><br/>
                             </div>
                         </div>
                     </div>
@@ -52,20 +55,6 @@ function GetInTouch() {
                                 </p>
                                 <p className="about-contact-details-text">
                                     <Link to="www.pravaashholidayz.com">www.pravaashholidayz.com</Link>
-                                </p>
-                                <p><br/></p><p><br/></p><br/>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-xl-4 col-lg-6">
-                        <div className="about-contact-grid">
-                            <div className="about-contact-icon">
-                                <img src="/assets/img/icon/mail.svg" alt="" />
-                            </div>
-                            <div className="about-contact-details">
-                                <h6 className="box-title">GST Number</h6>
-                                <p className="about-contact-details-text">
-                                    GST No : 24ABKFP4933E1Z9
                                 </p>
                                 <p><br/></p><p><br/></p><br/>
                             </div>
