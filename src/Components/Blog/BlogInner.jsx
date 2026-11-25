@@ -119,7 +119,7 @@ function BlogInner() {
                                             <Link to="/blog/1">
                                                 <img
                                                     src="assets/img/blog/recent-post-1-1.jpg"
-                                                    alt="Blog Image"
+                                                    alt="Green spaces island maldives blog post"
                                                 />
                                             </Link>
                                         </div>
@@ -142,7 +142,7 @@ function BlogInner() {
                                             <Link to="/blog/1">
                                                 <img
                                                     src="assets/img/blog/recent-post-1-2.jpg"
-                                                    alt="Blog Image"
+                                                    alt="Belgium tour travel blog post"
                                                 />
                                             </Link>
                                         </div>
@@ -165,7 +165,7 @@ function BlogInner() {
                                             <Link to="/blog/1">
                                                 <img
                                                     src="assets/img/blog/recent-post-1-3.jpg"
-                                                    alt="Blog Image"
+                                                    alt="Green spaces Realar Residence blog post"
                                                 />
                                             </Link>
                                         </div>

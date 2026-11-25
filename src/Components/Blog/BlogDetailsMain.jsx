@@ -16,7 +16,7 @@ function BlogDetailsMain() {
                     <div className="col-xxl-8 col-lg-7">
                         <div className="th-blog blog-single">
                             <div className="blog-img">
-                                <img src={`/assets/img/blog/${blogPost.bannerImg}`} alt="Blog Image" />
+                                <img src={`/assets/img/blog/${blogPost.bannerImg}`} alt="Blog post banner" />
                             </div>
                             <div className="blog-content">
                                 <div className="blog-meta">
