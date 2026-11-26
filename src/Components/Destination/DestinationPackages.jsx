@@ -30,7 +30,7 @@ function DestinationPackages() {
                 <div className="row mb-40">
                     <div className="col-12">
                         <div className="title-area">
-                            <span className="sub-title">Explore Packages</span>
+                            <span className="sub-title">Packages</span>
                             <h2 className="sec-title">{label}</h2>
                         </div>
                     </div>

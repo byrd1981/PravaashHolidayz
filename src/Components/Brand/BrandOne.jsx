@@ -5,22 +5,10 @@ import "swiper/css";
 import { Link } from "react-router-dom";
 
 const brands = [
-  "brand_1_1.svg",
-  "brand_1_2.svg",
-  "brand_1_3.svg",
-  "brand_1_4.svg",
-  "brand_1_5.svg",
-  "brand_1_6.svg",
-  "brand_1_7.svg",
-  "brand_1_8.svg",
-  "brand_1_1.svg",
-  "brand_1_2.svg",
-  "brand_1_3.svg",
-  "brand_1_4.svg",
-  "brand_1_5.svg",
-  "brand_1_6.svg",
-  "brand_1_7.svg",
-  "brand_1_8.svg",
+  "fern.svg",
+  "Hilton.svg",
+  "Indigo.svg",
+  "Taj.svg"
 ];
 
 function BrandOne({className}) {

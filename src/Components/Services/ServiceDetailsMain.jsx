@@ -270,7 +270,7 @@ function ServiceDetailsMain() {
                             {/* Comment end */} {/* Comment Form */}
                             <div className="th-comment-form ">
                                 <div className="row">
-                                    <h3 className="blog-inner-title h4 mb-2">Leave a Reply</h3>
+                                    <h3 className="blog-inner-title h4 mb-2">Form</h3>
                                     <p className="mb-25">
                                         Your email address will not be published. Required fields are
                                         marked

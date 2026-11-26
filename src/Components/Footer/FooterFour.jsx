@@ -21,7 +21,7 @@ function FooterFour() {
         <footer className="footer-wrapper bg-title footer-layout2 shape-mockup-wrap">
             <div className="widget-area">
                 <div className="container">
-                    <div className="newsletter-area">
+                    {/* <div className="newsletter-area">
                         <div className="newsletter-top">
                             <div className="row gy-4 align-items-center">
                                 <div className="col-lg-5">
@@ -44,7 +44,7 @@ function FooterFour() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="row justify-content-between">
                         <div className="col-md-6 col-xl-3">
                             <div className="widget footer-widget">

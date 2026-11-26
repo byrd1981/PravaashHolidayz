@@ -6,13 +6,13 @@ import CategoryOne from '../Components/Category/CategoryOne'
 import DestinationOne from '../Components/Destination/DestinationOne'
 import AboutOne from '../Components/About/AboutOne'
 import TourOne from '../Components/Tour/TourOne'
-import GalleryOne from '../Components/Gallery/GalleryOne'
+// import GalleryOne from '../Components/Gallery/GalleryOne'
 import CounterOne from '../Components/Counter/CounterOne'
 
 import HighlightsOne from '../Components/Highlights/HighlightsHome'
 import BrandOne from '../Components/Brand/BrandOne'
-import BlogOne from '../Components/Blog/BlogOne'
-import FooterOne from '../Components/Footer/FooterOne'
+// import BlogOne from '../Components/Blog/BlogOne'
+import FooterFour from '../Components/Footer/FooterFour'
 import ScrollToTop from '../Components/ScrollToTop'
 
 function HomeOne() {
@@ -25,12 +25,12 @@ function HomeOne() {
             <DestinationOne />
             <AboutOne />
             <TourOne />
-            <GalleryOne />
+            {/* <GalleryOne /> */}
             <CounterOne />
             <HighlightsOne />
             <BrandOne className="space-bottom"/>
-            <BlogOne />
-            <FooterOne />
+            {/* <BlogOne /> */}
+            <FooterFour />
             <ScrollToTop />
         </div>
     )

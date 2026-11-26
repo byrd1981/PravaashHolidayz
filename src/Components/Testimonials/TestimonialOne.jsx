@@ -6,40 +6,25 @@ import "swiper/css/pagination";
 
 const testimonials = [
   {
-    name: "Maria Doe",
+    name: "Mihir Patel",
     designation: "Traveller",
     image: "/assets/img/testimonial/testi_1_1.jpg",
-    text: "A home that perfectly blends sustainability with luxury until I discovered Ecoland Residence. From the moment I stepped into this community, I knew it was where I wanted to live. The commitment to eco-friendly living.",
+    rating: 4.5,
+    text: "An amazing Gujarat tour experience! Beautiful destinations, excellent hotel arrangements, comfortable travel and wonderful hospitality. Everything was perfectly organised. We enjoyed every moment of our journey. Highly recommended!",
   },
   {
-    name: "Andrew Simon",
+    name: "Jivan Shah",
     designation: "Traveller",
     image: "/assets/img/testimonial/testi_1_2.jpg",
-    text: "The home boasts sleek, contemporary architecture with clean lines and expansive windows, allowing natural light to flood the interiors. It incorporates passive design principles.",
+    rating: 4.7,
+    text: "Our Kerala trip was a wonderful experience for me as a senior citizen. Everything was thoughtfully arranged, with comfortable travel, relaxing stays and excellent support throughout the journey. I felt safe, relaxed and truly enjoyed every moment. Thank you for making my holiday so memorable!",
   },
   {
-    name: "Alex Jordan",
+    name: "Pinal Patel",
     designation: "Traveller",
     image: "/assets/img/testimonial/testi_1_1.jpg",
-    text: "Solar panels adorn the roof, harnessing renewable energy to power the home and even feed excess electricity back into the grid. High-performance insulation and triple-glazed windows enhance energy efficiency.",
-  },
-  {
-    name: "Maria Doe",
-    designation: "Traveller",
-    image: "/assets/img/testimonial/testi_1_1.jpg",
-    text: "A home that perfectly blends sustainability with luxury until I discovered Ecoland Residence. From the moment I stepped into this community, I knew it was where I wanted to live. The commitment to eco-friendly living.",
-  },
-  {
-    name: "Andrew Simon",
-    designation: "Traveller",
-    image: "/assets/img/testimonial/testi_1_2.jpg",
-    text: "The home boasts sleek, contemporary architecture with clean lines and expansive windows, allowing natural light to flood the interiors. It incorporates passive design principles.",
-  },
-  {
-    name: "Alex Jordan",
-    designation: "Traveller",
-    image: "/assets/img/testimonial/testi_1_1.jpg",
-    text: "Solar panels adorn the roof, harnessing renewable energy to power the home and even feed excess electricity back into the grid. High-performance insulation and triple-glazed windows enhance energy efficiency.",
+    rating: 4.2,
+    text: "Our Rajasthan Group Tour with 50 people was an amazing experience! From hotel arrangements to transportation, sightseeing and special event arrangements, everything was perfectly organised. The cultural programmes and group activities made the journey even more memorable. Excellent coordination, hospitality and a hassle-free experience. Highly recommended!",
   },
 ];
 
@@ -84,7 +69,7 @@ function TestimonialOne() {
                     </div>
                     <div className="testi-card_review">
                       {[...Array(5)].map((_, i) => (
-                        <i key={i} className="fa-solid fa-star" />
+                        <i key={i} className={`fa-${i < Math.floor(item.rating) ? 'solid' : i < item.rating ? 'solid' : 'regular'} fa-star`} />
                       ))}
                     </div>
                   </div>
