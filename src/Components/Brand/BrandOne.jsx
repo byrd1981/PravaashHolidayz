@@ -5,7 +5,7 @@ import "swiper/css";
 import { Link } from "react-router-dom";
 
 const brands = [
-  "fern.svg",
+  "Fern.svg",
   "Hilton.svg",
   "Indigo.svg",
   "Taj.svg"
